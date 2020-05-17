@@ -1,0 +1,34 @@
+// *** 2 УРОК.
+// ********************************************************
+'use strict';
+/* 5. */
+
+var question = prompt('Что будем делать? (+ - * /)', '');
+var result = mathOperation(10, -15, question);
+
+function mathOperation(arg1, arg2, operation) {
+  switch (operation) {
+    case '+':
+      return alert(arg1 + arg2);
+      break;
+
+    case '-':
+      return alert(arg1 - arg2);
+      break;
+
+    case '*':
+      return alert(arg1 * arg2);
+      break;
+
+    case '/':
+      return alert((arg1 / arg2).toFixed(2));
+      break;
+
+    default:
+      alert('Ошибка');
+  }
+
+  ;
+}
+
+;

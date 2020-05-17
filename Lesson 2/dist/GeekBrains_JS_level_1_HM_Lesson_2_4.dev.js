@@ -1,31 +1,28 @@
 // *** 2 УРОК.
 // ********************************************************
 'use strict';
-
 /* 4. */
 
-let addition = function(a,b) {
+var addition = function addition(a, b) {
   return a + b;
 };
 
-let subtraction = function(a,b) {
+var subtraction = function subtraction(a, b) {
   return a - b;
 };
 
-let composition = function(a,b) {
+var composition = function composition(a, b) {
   return a * b;
 };
 
-let division = function(a,b) {
+var division = function division(a, b) {
   return a / b;
 };
 
-console.log ('Проверка сложения: ' + addition(5, 8));
-console.log ('Проверка вычитания: ' +  subtraction(5, 8));
-console.log ('Проверка умножения: ' +  composition(5, 8));  
-console.log ('Проверка деления: ' +  division(5, 8).toFixed(2));
-
-// Вариант со switch для себя на пробу:
+console.log('Проверка сложения: ' + addition(5, 8));
+console.log('Проверка вычитания: ' + subtraction(5, 8));
+console.log('Проверка умножения: ' + composition(5, 8));
+console.log('Проверка деления: ' + division(5, 8).toFixed(2)); // Вариант со switch для себя на пробу:
 
 /*let a = +prompt ('Введите первое число','');
 let b = +prompt ('Введите второе число','');
@@ -45,4 +42,3 @@ switch (askForOperation) {
          alert ('Делим. Получим: ' + (a / b));
          break;
   }*/
-  
