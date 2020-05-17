@@ -1,1 +1,0 @@
-"use strict";var c,d,a=1,b=1;console.log(c),d=b++,console.log(d),c=++a+2,console.log(c),d=2+b++,alert(d),console.log(a),console.log(b);
