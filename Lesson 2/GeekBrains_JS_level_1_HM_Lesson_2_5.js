@@ -9,24 +9,28 @@
  * в зависимости от выбора оператора пользователем
  * @param {number} arg1 
  * @param {number} arg2 
- * @param {operation} operation //знак операции над числами
+ * @param {string} operation //знак операции над числами
  * @returns {alert} //сообщение с результатом вычисления
  */
+
+let a = Number( prompt ('Введите первое число',''));
+let b = Number( prompt ('Введите второе число',''));
 
 function mathOperation(arg1, arg2, operation){
   switch (operation) {
     case '+': 
-      return alert ( `Результат вычислений: ${arg1 + arg2}` );
+      return arg1 + arg2;
     case '-': 
-      return alert ( `Результат вычислений: ${arg1 - arg2}` );
+      return arg1 - arg2;
     case '*': 
-      return alert ( `Результат вычислений: ${arg1 * arg2}` );
-     case '/':
-      return alert ( `Результат вычислений: ${(arg1 / arg2).toFixed(2)}` );
+      return arg1 * arg2;
+    case '/':
+      return (arg1 / arg2).toFixed(2);
     default:
-      alert( 'Ошибка' );
+      return 'Ошибка. Введено некорректное значение';
   }; 
 };
 
 let question = prompt ('Что будем делать? (+ - * /)', '');
-let result = mathOperation (10, -15, question);
+let result = mathOperation (a, b, question);
+alert ( `Результат вычислений: ${result}` );
