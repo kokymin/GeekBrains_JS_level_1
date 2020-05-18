@@ -1,1 +1,0 @@
-"use strict";var question=prompt("Что будем делать? (+ - * /)",""),result=mathOperation(10,-15,question);function mathOperation(t,e,r){switch(r){case"+":return alert(t+e);case"-":return alert(t-e);case"*":return alert(t*e);case"/":return alert((t/e).toFixed(2));default:alert("Ошибка")}}

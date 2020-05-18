@@ -1,1 +1,0 @@
-"use strict";var addition=function(o,n){return o+n},subtraction=function(o,n){return o-n},composition=function(o,n){return o*n},division=function(o,n){return o/n};console.log("Проверка сложения: "+addition(5,8)),console.log("Проверка вычитания: "+subtraction(5,8)),console.log("Проверка умножения: "+composition(5,8)),console.log("Проверка деления: "+division(5,8).toFixed(2));
