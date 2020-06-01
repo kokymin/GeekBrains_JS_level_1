@@ -1,0 +1,1 @@
+"use strict";var config={rowsCount:10,colsCount:10};

@@ -1,0 +1,1 @@
+"use strict";var renderer={map:"",render:function(){for(var r=0;r<config.rowsCount;r++){for(var o=0;o<config.colsCount;o++)player.y===r&&player.x===o?this.map+="0 ":this.map+="x ";this.map+="\n"}console.log(this.map)},clear:function(){console.clear(),this.map=""}};
